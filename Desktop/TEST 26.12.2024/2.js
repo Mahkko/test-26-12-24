@@ -5,8 +5,13 @@
 //Izlaz: "fl"
 
 const strs = ["flower", "flow", "flight"];
+const prefix = [];
 
-console.log(
-  strs.forEach((pref) => ),
-  ""
-);
+strs.forEach((element, i) => {
+  if (strs[i][0] === element[i]) {
+    console.log(element[0]);
+  }
+  console.log(strs[i]);
+
+  prefix.push(element[i]);
+});
